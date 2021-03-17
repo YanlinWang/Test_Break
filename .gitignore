@@ -1,0 +1,6 @@
+__pycache__
+qdmr_parsing/trained_models
+qdmr_parsing/data/train_dynamic.json
+qdmr_parsing/data/train_dynamic.tsv
+qdmr_parsing/data/dev_dynamic.json
+qdmr_parsing/data/dev_dynamic.tsv

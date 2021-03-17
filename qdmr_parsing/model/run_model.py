@@ -5,7 +5,7 @@ import os
 import pandas as pd
 import random
 import sys
-
+sys.path.append('..')
 from evaluation.decomposition import Decomposition, get_decomposition_from_tokens
 from model.rule_based.rule_based_model import RuleBasedModel
 from model.rule_based.copy_model import CopyModel
@@ -15,7 +15,7 @@ from utils.preprocess_examples import fix_references
 # sys.path.append('..') below a workaround to solve the small dependency between the root
 # directories "qdmr_parsing" and "annotation_pipeline", which have been developed separately 
 # but are under the same GitHub repository.'''
-sys.path.append('..')
+sys.path.append('../..')
 from annotation_pipeline.utils.app_store_generation import valid_annotation_tokens
 
 
